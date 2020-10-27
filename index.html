@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My first Leaflet Map</title>
+
+  <!--Mis estilos css-->
+    <link rel="stylesheet" href="style.css">
+
+<!-- Libreria de Leaflet-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+<!--Librería de iconos-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+<!--Libreria de Markers-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-extra-markers@1.0.6/dist/css/leaflet.extra-markers.min.css">
+  <script src= "https://cdn.jsdelivr.net/npm/leaflet-extra-markers@1.0.6/src/assets/js/leaflet.extra-markers.min.js"></script>
+</head>
+<body>
+  <header>
+      <h1>Mi primer mapa usando <i>Leaflet</i></h1>
+      <h2>Esculturas de arte de la ciudad de Alcobendas</h2>
+      <nav>
+        <a href="https://leafletjs.com/examples.html" target="_blank">Tutoriales</a>
+        <a href="https://datos.alcobendas.org/dataset/esculturas-arte-en-la-ciudad1/resource/725315ac-81ff-44ea-b3b4-56f56133fe86" target="_blank">GeoJson</a>
+        <a href="https://www.jsdelivr.com/package/npm/leaflet-extra-markers?version=1.0.6" target="_blank">Markers</a>
+      </nav>
+  </header>
+    <div id="mapid"></div>
+    <script src="map.js"></script>
+  <footer>
+    <p>Mapa elaborado por Luisana Indriago Gauna con Leaflet, OpenStreetMap y datos abiertos del Ayuntamiento de Alcobendas, 2020</p>
+  </footer>
+</body>
+</html>
